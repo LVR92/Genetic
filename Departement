@@ -18,6 +18,7 @@ public class Department {
 
         this.deptName = thisDeptName;
         readNurses();
+        readShiftData();
     }
 
     public ArrayList<Nurse> getNurses() {
